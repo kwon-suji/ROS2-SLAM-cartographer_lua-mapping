@@ -104,7 +104,7 @@ POSE_GRAPH.constraint_builder.loop_closure_translation_weight = 1e5
 POSE_GRAPH.constraint_builder.loop_closure_rotation_weight = 1e5
 
 -- Optimizer
-POSE_GRAPH.optimize_every_n_nodes = 25
+POSE_GRAPH.optimize_every_n_nodes = 35
 POSE_GRAPH.optimization_problem.ceres_solver_options.max_num_iterations = 35
 ------------------------------------------------------------------------------------
 
