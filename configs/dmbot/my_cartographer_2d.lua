@@ -94,10 +94,10 @@ MAP_BUILDER.num_background_threads = 8
 
 -- Constraint Builder
 POSE_GRAPH.constraint_builder.fast_correlative_scan_matcher.branch_and_bound_depth = 8
-POSE_GRAPH.constraint_builder.min_score = 0.58
-POSE_GRAPH.constraint_builder.global_localization_min_score = 0.70
-POSE_GRAPH.constraint_builder.sampling_ratio = 0.03
-POSE_GRAPH.global_sampling_ratio = 0.0005
+POSE_GRAPH.constraint_builder.min_score = 0.72
+POSE_GRAPH.constraint_builder.global_localization_min_score = 0.85
+POSE_GRAPH.constraint_builder.sampling_ratio = 0.015
+POSE_GRAPH.global_sampling_ratio = 0.0
 
 POSE_GRAPH.optimization_problem.huber_scale = 5.0 
 POSE_GRAPH.constraint_builder.loop_closure_translation_weight = 1e5
